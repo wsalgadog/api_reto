@@ -32,6 +32,7 @@ namespace api_reto.Controllers
             cliente_repository repository = new cliente_repository();
             var res = repository.Insert(cliente);
             return Accepted();
+            //comentario
         }
 
     }
