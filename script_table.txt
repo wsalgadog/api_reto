@@ -1,0 +1,8 @@
+CREATE TABLE `Cliente` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombres` varchar(100) DEFAULT NULL,
+  `apellidos` varchar(100) DEFAULT NULL,
+  `fnacimiento` date DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`)
+);

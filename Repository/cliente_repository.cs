@@ -11,7 +11,7 @@ namespace api_reto.Repository
     public class cliente_repository
     {
 
-        string cadena = "Server=dbapintpboe.ck3as5z68fkx.us-east-1.rds.amazonaws.com;Port=3306;Database=bdoeschle;user=admin;password=JusticeX09A;Pooling=false";
+        string cadena = "Server=dbahubbn.je12s5z68frd.us-east-1.rds.amazonaws.com;Port=3306;Database=bdbn;user=admin;password=123456;Pooling=false";
         public List<Cliente> SearchById(int id_cliente)
         {
             MySqlConnection conn = new MySqlConnection(cadena);
